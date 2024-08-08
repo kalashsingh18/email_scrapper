@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash2.0 Registration Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            color: black;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding-bottom: 20px;
+            border: 1px solid #c8c8c8;
+        }
+        .header {
+            background-color: #28a745; /* Green */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        .header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .content {
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .button-container {
+            display: flex;
+            margin: 10px auto;
+            /* flex-direction: column;
+            align-items: center;
+            gap: 10px; */
+        }
+        .button {
+            display: inline-block;
+            font-size: 16px;
+            color: #fff;
+            background-color: #28a745; /* Green */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+            width: 80%;
+            max-width: 300px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: black;
+        }
+        .footer a {
+            color: #28a745; /* Green */
+            text-decoration: none;
+        }
+
+        /* Media query for mobile responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 0;
+                box-shadow: none;
+                border: none;
+            }
+            .content {
+                padding: 10px;
+            }
+            .button {
+                width: 100%;
+                padding: 15px;
+                margin: 10px auto;
+            }
+            .header {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Clash2.0!</h1>
+        </div>
+        <div class="content">
+            <p>Hi {team_name},</p>
+            <p>Congratulations on successfully registering for <strong>Clash2.0</strong>! We're thrilled to have you join us for this exciting event.</p>
+            <p>Get ready for an amazing experience with top-notch challenges, networking opportunities, and much more.</p>
+            <p>Stay tuned for more updates and details about the hackathon. We can't wait to see what you'll bring to the table!</p>
+            <div class="button-container">
+                <a href="https://docs.google.com/document/d/1d4Izj2pNYIfF_YHPBVwlFhqL4_jNzVkBj112-O_aZEw/edit" class="button">View Hackathon Details</a>
+            </div>
+            <div class="button-container">
+                <a href="https://chat.whatsapp.com/D4AebWW55OO8gcpD65LTrT" class="button whatsapp-button">Join Our WhatsApp Group</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Best regards,<br>
+            The Clash2.0 Team<br>
+            IndoriCoders & SOC</p>
+            <p>If you have any questions, feel free to <a href="mailto:info@indoricoders.com">contact us</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
