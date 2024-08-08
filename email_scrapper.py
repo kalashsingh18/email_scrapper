@@ -83,6 +83,7 @@ def drop_duplicates(data):
                 
 if __name__=="__main__":
     data=extract_data_()
+    print("data",data)
     data=data[1:]
     
     
