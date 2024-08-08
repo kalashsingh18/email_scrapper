@@ -21,7 +21,7 @@ def extract_data_():
         data=worksheet.get_all_values()# Open the first sheet
         # records = sheet.get_all_records()
         # print(records) 
-           
+        print(data)
         return data[0:]
     except Exception as e:
         print(f"An error occurred: {e}")
